@@ -18,7 +18,12 @@ int main()
 	generation(realiz, x1, x2, x3, x4, counter, V);
 	cout << "\nĞåçóëüòàò: " << counter[0] << " " << counter[1] << " "
 		<< counter[2]<< " " << counter[3] << endl;
-	cout << "V: " << V[0] << " "<< V[1] << " " << V[2] << " "<< V[3] << endl;
+	cout << "V: ";
+	for (int i = 0; i < 4; i++)
+	{
+		cout << V[i] << " ";
+	}
+
 	double sum = 0;
 	for (int i = 0; i < 4; i++)
 	{
